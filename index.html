@@ -400,7 +400,7 @@
                     </a>
                     <a href="https://github.com/AbiralBhattarai" target="_blank" class="d-inline-block text-decoration-none">
                         <div class="rounded-circle bg-white d-flex justify-content-center align-items-center" style="width: 120px; height: 120px;">
-                            <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub" style="max-width: 80px;">
+                            <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub" style="max-width: 100px;">
                         </div>
                     </a>
                 </div>
@@ -414,7 +414,7 @@
 
     <footer class="py-3 text-center" style="background-color: #000; color: #fff;">
         <div class="container">
-            <p class="mb-0">&copy; 2024 Abiral Bhattarai. All Rights Reserved.</p>
+            <p class="mb-0" id="foot">&copy; 2024 Abiral Bhattarai. All Rights Reserved.</p>
         </div>
     </footer>
     <button id="scrollUpBtn" onclick="scrollToTop()">↑</button>
@@ -439,7 +439,7 @@
             behavior: "smooth"
         });
         }
-        const sections = ["home", "about", "projects", "contact"].map(id => document.getElementById(id));
+        const sections = ["home", "about", "projects", "contact","foot"].map(id => document.getElementById(id));
 
     // Function to determine the currently visible section
     function getCurrentSectionIndex() {
